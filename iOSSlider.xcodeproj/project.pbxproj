@@ -14,6 +14,10 @@
 		96A6540C1ADB6A7D00F3D237 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A6540B1ADB6A7D00F3D237 /* Images.xcassets */; };
 		96A6540F1ADB6A7D00F3D237 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96A6540D1ADB6A7D00F3D237 /* LaunchScreen.xib */; };
 		96A6541B1ADB6A7D00F3D237 /* iOSSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A6541A1ADB6A7D00F3D237 /* iOSSliderTests.m */; };
+		96A654321ADB839F00F3D237 /* ZC_ShinningSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A654311ADB839F00F3D237 /* ZC_ShinningSlider.m */; };
+		96A6543A1ADB842B00F3D237 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A654371ADB842B00F3D237 /* FBShimmeringLayer.m */; };
+		96A6543B1ADB842B00F3D237 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A654391ADB842B00F3D237 /* FBShimmeringView.m */; };
+		C59345A075717642E43FF56D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1A562DDA1B624D879EBDAE /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CEF802EAFC664D5AE66A738 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7E1A562DDA1B624D879EBDAE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A653FB1ADB6A7D00F3D237 /* iOSSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A653FF1ADB6A7D00F3D237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96A654001ADB6A7D00F3D237 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,15 @@
 		96A654141ADB6A7D00F3D237 /* iOSSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A654191ADB6A7D00F3D237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96A6541A1ADB6A7D00F3D237 /* iOSSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSSliderTests.m; sourceTree = "<group>"; };
+		96A654301ADB839F00F3D237 /* ZC_ShinningSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZC_ShinningSlider.h; sourceTree = "<group>"; };
+		96A654311ADB839F00F3D237 /* ZC_ShinningSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZC_ShinningSlider.m; sourceTree = "<group>"; };
+		96A654341ADB842B00F3D237 /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
+		96A654351ADB842B00F3D237 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		96A654361ADB842B00F3D237 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		96A654371ADB842B00F3D237 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
+		96A654381ADB842B00F3D237 /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		96A654391ADB842B00F3D237 /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
+		D52AC3F98897AE814053C920 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C59345A075717642E43FF56D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +82,8 @@
 				96A653FD1ADB6A7D00F3D237 /* iOSSlider */,
 				96A654171ADB6A7D00F3D237 /* iOSSliderTests */,
 				96A653FC1ADB6A7D00F3D237 /* Products */,
+				E6E3470F84A33F350AA620C5 /* Pods */,
+				A312391E8AA1B45D8C4779C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +99,9 @@
 		96A653FD1ADB6A7D00F3D237 /* iOSSlider */ = {
 			isa = PBXGroup;
 			children = (
+				96A654331ADB842B00F3D237 /* FBShimmering */,
+				96A654301ADB839F00F3D237 /* ZC_ShinningSlider.h */,
+				96A654311ADB839F00F3D237 /* ZC_ShinningSlider.m */,
 				96A654021ADB6A7D00F3D237 /* AppDelegate.h */,
 				96A654031ADB6A7D00F3D237 /* AppDelegate.m */,
 				96A654051ADB6A7D00F3D237 /* ViewController.h */,
@@ -119,6 +140,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		96A654331ADB842B00F3D237 /* FBShimmering */ = {
+			isa = PBXGroup;
+			children = (
+				96A654341ADB842B00F3D237 /* FBShimmering-Prefix.pch */,
+				96A654351ADB842B00F3D237 /* FBShimmering.h */,
+				96A654361ADB842B00F3D237 /* FBShimmeringLayer.h */,
+				96A654371ADB842B00F3D237 /* FBShimmeringLayer.m */,
+				96A654381ADB842B00F3D237 /* FBShimmeringView.h */,
+				96A654391ADB842B00F3D237 /* FBShimmeringView.m */,
+			);
+			path = FBShimmering;
+			sourceTree = "<group>";
+		};
+		A312391E8AA1B45D8C4779C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E1A562DDA1B624D879EBDAE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6E3470F84A33F350AA620C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D52AC3F98897AE814053C920 /* Pods.debug.xcconfig */,
+				4CEF802EAFC664D5AE66A738 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96A6541E1ADB6A7D00F3D237 /* Build configuration list for PBXNativeTarget "iOSSlider" */;
 			buildPhases = (
+				4B9A5D074D823F47819300F5 /* Check Pods Manifest.lock */,
 				96A653F71ADB6A7D00F3D237 /* Sources */,
 				96A653F81ADB6A7D00F3D237 /* Frameworks */,
 				96A653F91ADB6A7D00F3D237 /* Resources */,
+				06F64ABE18A331DF4390FE1D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +267,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06F64ABE18A331DF4390FE1D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B9A5D074D823F47819300F5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96A653F71ADB6A7D00F3D237 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				96A654071ADB6A7D00F3D237 /* ViewController.m in Sources */,
+				96A6543B1ADB842B00F3D237 /* FBShimmeringView.m in Sources */,
 				96A654041ADB6A7D00F3D237 /* AppDelegate.m in Sources */,
+				96A6543A1ADB842B00F3D237 /* FBShimmeringLayer.m in Sources */,
 				96A654011ADB6A7D00F3D237 /* main.m in Sources */,
+				96A654321ADB839F00F3D237 /* ZC_ShinningSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +436,7 @@
 		};
 		96A6541F1ADB6A7D00F3D237 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52AC3F98897AE814053C920 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSSlider/Info.plist;
@@ -357,6 +447,7 @@
 		};
 		96A654201ADB6A7D00F3D237 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CEF802EAFC664D5AE66A738 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSSlider/Info.plist;
@@ -418,6 +509,7 @@
 				96A654201ADB6A7D00F3D237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96A654211ADB6A7D00F3D237 /* Build configuration list for PBXNativeTarget "iOSSliderTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +518,7 @@
 				96A654231ADB6A7D00F3D237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
